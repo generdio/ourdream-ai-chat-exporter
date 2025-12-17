@@ -51,11 +51,12 @@ This extension is loaded as an unpacked extension in developer mode. Follow thes
 
 ## Usage
 1. **Open Popup**: Click the extension icon in your toolbar.
-2. **Toggle Enable/Disable**: Turns the exporter on/off for the current ourdream.ai domain.
-3. **Export Options**:
+2. **Toggle Enable/Disable**: Turns the exporter on/off for the current ourdream.ai domain. Enabling injects the script immediately and updates the user message count within moments.
+3. **User Message Counter**: Shown below the buttons (e.g., "User messages: 42"). Updates automatically when the popup opens or when you enable the extension.
+4. **Export Options**:
    - **Copy to Clipboard**: Formats and copies the full chat.
    - **Download as File**: Saves the formatted chat as `ourdream_chat_export.txt`.
-4. **Debug Panel**: Displays logs (e.g., domain status) for troubleshooting.
+5. **Debug Panel**: Displays logs (e.g., domain status) for troubleshooting.
 
 ## Example Exported Chat Format
 ```text
