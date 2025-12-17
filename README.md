@@ -2,8 +2,6 @@
 
 A lightweight Chrome extension (Manifest V3) designed to export chat conversations from OurDream.ai. It parses the chat HTML, formats messages with clear labels (e.g., [User], [Character], [Narrative], [Inner Dialogue]), and allows you to copy the export to your clipboard or download it as a plain text file. This is useful for archiving role-play stories, analyzing conversations, or backing up data.
 
-No image deblurring, fullscreen galleries, or site modifications—just clean chat export QoL features.
-
 ## Features
 - **Chat Export**: Collects all messages from the chat container on OurDream.ai pages. Formats them into a readable structure:
   - [User]: User messages.
@@ -12,11 +10,12 @@ No image deblurring, fullscreen galleries, or site modifications—just clean ch
   - [Inner Dialogue]: Character's inner thoughts (e.g., "Inner Dialogue: ...").
 - **Copy to Clipboard**: One-click copy of the formatted chat text via the popup.
 - **Download as File**: Save the chat as a .txt file directly from the popup.
+- **User Message Counter**: Displays the total number of messages you (the user) have sent in the current chat. The count appears automatically in the popup as soon as it opens (when the extension is enabled).
 - **Domain Toggle**: Enable/disable the extension specifically for ourdream.ai domains to avoid running on unrelated pages.
 - **Debug Logging**: Popup includes a debug console for troubleshooting.
 - **Privacy-Focused**: No data collection; runs locally. Only activates on matching domains.
 
-The extension is built for simplicity and works on Chrome/Opera.
+The extension is built for simplicity and works on Chrome/Opera Gx.
 
 ## Installation Steps
 This extension is loaded as an unpacked extension in developer mode. Follow these steps to add it to Chrome (or compatible browsers like Opera):
