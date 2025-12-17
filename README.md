@@ -22,7 +22,7 @@ The extension is built for simplicity and works on Chrome/Opera.
 This extension is loaded as an unpacked extension in developer mode. Follow these steps to add it to Chrome (or compatible browsers like Opera):
 
 1. **Download the Repository**:
-   - Clone this repo: ```git clone https://github.com/generdio/ourdream-ai-chat-exporter.git```
+   - Clone this repo: `git clone https://github.com/generdio/ourdream-ai-chat-exporter.git`
    - Or download the ZIP from the GitHub page and extract it to a folder (e.g., `ourdream-ai-chat-exporter`).
 
 2. **Open Chrome Extensions Page**:
@@ -56,12 +56,23 @@ This extension is loaded as an unpacked extension in developer mode. Follow thes
 4. **Debug Panel**: Displays logs (e.g., domain status) for troubleshooting.
 
 ## Example Exported Chat Format
-[User]: User message here.
-[Narrative]: Narrative description here.
-[Character]: Character dialogue here.
-[Inner Dialogue]: Inner thoughts here.
-text
+```text
+[User]: Hello, how are you?
 
+[Narrative]: The character leans forward, eyes gleaming with interest.
+
+[Character]: I'm doing great, thanks for asking!
+
+[Narrative]: She smiles warmly, brushing a strand of hair behind her ear.
+
+[Inner Dialogue]: They're so cute when they're nervous. Popularity: 95%
+
+[User]: That's good to hear. What have you been up to?
+
+[Character]: Just the usual chaos. Saving the world one sarcastic comment at a time.
+
+[Inner Dialogue]: Gotta keep them hooked. This is getting fun.
+```
 ## Troubleshooting
 - **No Chat Data**: Ensure you're on a valid OurDream.ai chat page with the expected HTML structure. Use "Force Run Now" to reload.
 - **Extension Not Loading**: Check chrome://extensions/ for errors. Reload the unpacked folder if needed.
