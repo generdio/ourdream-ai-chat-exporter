@@ -1,0 +1,28 @@
+{
+  "manifest_version": 3,
+  "name": "Ourdream AI Chat Exporter",
+  "version": "1.0",
+  "description": "Exports chats from ourdream.ai to clipboard or file.",
+  "permissions": ["storage", "scripting", "activeTab", "downloads"],
+  "host_permissions": ["*://*.ourdream.ai/*"],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://*.ourdream.ai/*"],
+      "js": ["content.js"],
+      "run_at": "document_start",
+      "all_frames": false
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": ["content.js"],
+      "matches": ["*://*.ourdream.ai/*"]
+    }
+  ]
+}
