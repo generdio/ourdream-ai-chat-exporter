@@ -23,7 +23,9 @@ This extension is loaded as an unpacked extension in developer mode. Follow thes
 
 1. **Download the Repository**:
    - Clone this repo: 
-   ```git clone https://github.com/generdio/ourdream-ai-chat-exporter.git```
+   ```text
+    git clone https://github.com/generdio/ourdream-ai-chat-exporter.git
+   ```
    - Or download the ZIP from the GitHub page and extract it to a folder (e.g., `ourdream-ai-chat-exporter`).
 
 2. **Open Chrome Extensions Page**:
